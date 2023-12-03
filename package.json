@@ -4,7 +4,8 @@
   "description": "WeChat miniprogram learning practice",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/RoseBud13/miniprogram-test/issues"
   },
-  "homepage": "https://github.com/RoseBud13/miniprogram-test#readme"
+  "homepage": "https://github.com/RoseBud13/miniprogram-test#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.1.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,wxml,html,json,css,less,md}": "prettier --write"
+  }
 }
