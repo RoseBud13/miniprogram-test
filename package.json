@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix --ext .js",
     "prepare": "husky install"
   },
   "repository": {
@@ -17,6 +18,12 @@
     "url": "https://github.com/RoseBud13/miniprogram-test/issues"
   },
   "homepage": "https://github.com/RoseBud13/miniprogram-test#readme",
+  "lint-staged": {
+    "*.{js, ts}": "eslint --fix",
+    "*.{js,ts,wxml,html,json,css,less,wxss,md}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
@@ -25,9 +32,9 @@
     "eslint-plugin-prettier": "^5.0.1",
     "husky": "^8.0.3",
     "lint-staged": "^15.1.0",
-    "prettier": "^3.1.0",
-    "stylelint": "^14.16.1",
-    "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-standard": "^29.0.0"
+    "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "tdesign-miniprogram": "^1.2.4"
   }
 }

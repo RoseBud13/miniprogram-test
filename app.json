@@ -1,13 +1,9 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
-  ],
+  "pages": ["pages/index/index", "pages/logs/logs"],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
-  "style": "v2",
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true,
