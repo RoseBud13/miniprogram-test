@@ -32,7 +32,7 @@ module.exports = {
     'no-undef': 'off',
     camelcase: ['error', { ignoreDestructuring: true }],
     'class-name-casing': 'off',
-    'no-console': ['warn', { allow: ['warn', 'error'] }],
+    // 'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-debugger': 'error',
     'no-unused-expressions': ['error', { allowShortCircuit: true, allowTernary: true }],
     'no-empty-interface': 'off',
