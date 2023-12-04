@@ -15,7 +15,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[wxss]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "wxmlConfig.onSaveFormat": true,
   "wxmlConfig.format": {
