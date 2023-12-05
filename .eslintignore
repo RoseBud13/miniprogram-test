@@ -1,2 +1,4 @@
 dist/*
 miniprogram_npm
+components/common/
+components/navbar/
