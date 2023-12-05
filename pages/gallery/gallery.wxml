@@ -1,2 +1,52 @@
 <my-navbar left-arrow transparent />
+<swiper
+  class="content-wrapper"
+  indicator-dots="{{content.indicatorDots}}"
+  vertical="{{content.vertical}}"
+  autoplay="{{content.autoplay}}"
+  interval="{{content.interval}}"
+  duration="{{content.duration}}"
+  circular="{{content.circular}}"
+>
+	<swiper-item>
+		<view class="gallery-container">
+			<swiper
+			  class="img-slider"
+			  indicator-dots="{{gallery.indicatorDots}}"
+			  autoplay="{{gallery.autoplay}}"
+			  interval="{{gallery.interval}}"
+			  duration="{{gallery.duration}}"
+			  circular="{{gallery.circular}}"
+			>
+				<swiper-item>
+					<image
+					  class="gallery-img"
+					  src="https://mp-static-1306125602.cos.ap-shanghai.myqcloud.com/img%2FDSC02111.JPG"
+					  mode="heightFix"
+					  lazy-load="false"
+					  binderror=""
+					  bindload=""
+					/>
+				</swiper-item>
+				<swiper-item>
+					<image
+					  class="gallery-img"
+					  src="https://photo-arch-1306125602.cos.ap-shanghai.myqcloud.com/bgpic1.JPG"
+					  mode="heightFix"
+					  lazy-load="false"
+					  binderror=""
+					  bindload=""
+					/>
+				</swiper-item>
+			</swiper>
+		</view>
+	</swiper-item>
+	<swiper-item>
+		<view class="text-container">
+			<view class="info-wrapper">
+				你好
+			</view>
+		</view>
+	</swiper-item>
+</swiper>
 
