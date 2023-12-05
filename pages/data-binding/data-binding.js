@@ -4,6 +4,12 @@ Page({
     greetings: 'Hello my babe',
     greetingValue: '',
   },
+  // ？？？？？ model:value 双向绑定在实机环境里无效
+  getInputValue(e) {
+    this.setData({
+      greetingValue: e.detail.value,
+    });
+  },
   changeGreetings() {
     const newGreeting = ` Hello my babe ${this.data.greetingValue} `;
     this.setData({
