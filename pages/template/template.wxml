@@ -1,5 +1,5 @@
 <!-- index.wxml -->
-<t-navbar title="Template" t-class-title="nav-title" />
+<t-navbar title="Template" t-class-title="nav-title" left-arrow />
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <view class="userinfo">

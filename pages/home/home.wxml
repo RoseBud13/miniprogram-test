@@ -1,10 +1,8 @@
-<view>
-  <t-navbar title="{{ greetings }}" />
-</view>
-<view class="homepage">
-  <view class="nickname-wrapper">
-    <text class="nickname-label">昵称</text>
-    <input model:value="{{ greetingValue }}" class="nickname-input" placeholder="请输入昵称" />
-  </view>
-  <t-button theme="light" bindtap="changeGreetings">Change</t-button>
+<t-navbar title="小程序学习" />
+<view class="homepage-title"> 发癫发癫发癫噜啦啦啦啦 </view>
+<view class="content-wrapper">
+  <t-cell-group theme="card">
+    <t-cell title="Data Binding" url="/pages/data-binding/data-binding" leftIcon="data" hover arrow />
+    <t-cell title="Template" url="/pages/template/template" leftIcon="user-1" hover arrow />
+  </t-cell-group>
 </view>

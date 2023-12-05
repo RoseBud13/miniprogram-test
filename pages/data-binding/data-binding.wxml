@@ -1,0 +1,8 @@
+<!-- data-binding.wxml -->
+<t-navbar title="Data Binding" left-arrow />
+<view>{{ greetings }}</view>
+<view class="nickname-wrapper">
+  <text class="nickname-label">昵称</text>
+  <input model:value="{{ greetingValue }}" class="nickname-input" placeholder="请输入昵称" />
+</view>
+<t-button theme="light" bindtap="changeGreetings">Change</t-button>

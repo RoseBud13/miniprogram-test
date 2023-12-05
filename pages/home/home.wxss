@@ -1,22 +1,19 @@
-.homepage {
+Page {
+  background-color: #f5f5f5;
+  --td-navbar-bg-color: #f5f5f5;
+}
+
+.homepage-title {
+  position: relative;
+  top: 74rpx;
+  padding: 0 20rpx 0 20rpx;
+  font-size: 50rpx;
+}
+
+.content-wrapper {
+  position: relative;
+  top: 350rpx;
   display: flex;
   flex-direction: column;
-}
-
-.nickname-wrapper {
-  display: flex;
-  width: 100%;
-  padding: 16px;
-  box-sizing: border-box;
-  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
-  color: black;
-}
-
-.nickname-label {
-  width: 105px;
-}
-
-.nickname-input {
-  flex: 1;
+  justify-content: center;
 }

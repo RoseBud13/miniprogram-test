@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/home/home", "pages/template/template"],
+  "pages": ["pages/home/home", "pages/template/template", "pages/data-binding/data-binding"],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
