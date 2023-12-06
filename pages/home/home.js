@@ -1,6 +1,24 @@
 //Page Object
 Page({
-  data: {},
+  data: {
+    cellList: [
+      {
+        title: 'Data Binding',
+        url: '/pages/data-binding/data-binding',
+        icon: 'data',
+      },
+      {
+        title: 'Template',
+        url: '/pages/template/template',
+        icon: 'user-1',
+      },
+      {
+        title: 'Gallery',
+        url: '/pages/gallery/gallery',
+        icon: 'image',
+      },
+    ],
+  },
   //options(Object)
   onLoad: function () {},
   onReady: function () {},
