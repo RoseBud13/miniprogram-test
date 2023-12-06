@@ -1,12 +1,38 @@
-<my-navbar left-arrow transparent />
-<view class="media-wrapper">
-	<video
-	  id="background-video"
-	  src="https://www.fotografiska.com/app/uploads/2022/09/Foto_Landing.mp4"
-	  binderror="videoErrorCallback"
-	  controls="{{false}}"
-	  autoplay="{{true}}"
-	  loop="{{true}}"
-	/>
-</view>
+<my-navbar left-arrow transparent>
+	<view slot="title" class="logo-image-container">
+		<image class="logo-image" src="{{logo}}" aria-label="logo" />
+	</view>
+</my-navbar>
+<swiper
+  class="home-swiper"
+  indicator-dots="{{homeswiper.indicatorDots}}"
+  vertical="{{homeswiper.vertical}}"
+  autoplay="{{homeswiper.autoplay}}"
+  interval="{{homeswiper.interval}}"
+  duration="{{homeswiper.duration}}"
+  circular="{{homeswiper.circular}}"
+>
+	<swiper-item>
+		<view class="media-wrapper">
+			<video
+			  id="background-video"
+			  src="{{homeMediaSrc}}"
+			  binderror="videoErrorCallback"
+			  controls="{{false}}"
+			  autoplay="{{true}}"
+			  loop="{{true}}"
+			/>
+		</view>
+		<view class="home-content">
+			Fotografiska
+		</view>
+	</swiper-item>
+	<swiper-item>
+		<view class="text-container">
+			<view class="info-wrapper">
+				你好
+			</view>
+		</view>
+	</swiper-item>
+</swiper>
 
