@@ -18,20 +18,10 @@
 			  duration="{{gallery.duration}}"
 			  circular="{{gallery.circular}}"
 			>
-				<swiper-item>
+				<swiper-item wx:for="{{img}}" wx:key="item">
 					<image
 					  class="gallery-img"
-					  src="https://mp-static-1306125602.cos.ap-shanghai.myqcloud.com/img%2FDSC02111.JPG"
-					  mode="heightFix"
-					  lazy-load="false"
-					  binderror=""
-					  bindload=""
-					/>
-				</swiper-item>
-				<swiper-item>
-					<image
-					  class="gallery-img"
-					  src="https://photo-arch-1306125602.cos.ap-shanghai.myqcloud.com/bgpic1.JPG"
+					  src="{{item.src}}"
 					  mode="heightFix"
 					  lazy-load="false"
 					  binderror=""

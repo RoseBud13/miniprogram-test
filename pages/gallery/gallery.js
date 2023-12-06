@@ -4,7 +4,7 @@ Page({
     gallery: {
       indicatorDots: true,
       vertical: false,
-      autoplay: false,
+      autoplay: true,
       circular: true,
       interval: 3000,
       duration: 500,
@@ -17,6 +17,16 @@ Page({
       interval: 5000,
       duration: 500,
     },
+    img: [
+      {
+        id: '1',
+        src: 'https://mp-static-1306125602.cos.ap-shanghai.myqcloud.com/img%2FDSC02111.JPG',
+      },
+      {
+        id: '2',
+        src: 'https://photo-arch-1306125602.cos.ap-shanghai.myqcloud.com/bgpic1.JPG',
+      },
+    ],
   },
   //options(Object)
   onLoad: function () {},
