@@ -1,4 +1,4 @@
-<t-navbar title="小程序学习" />
+<t-navbar title="{{pageTitle}}" />
 <view class="homepage-title"> 发癫发癫发癫噜啦啦啦啦 </view>
 <view class="content-wrapper">
 	<t-cell-group theme="card">

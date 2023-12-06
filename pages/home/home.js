@@ -1,6 +1,7 @@
 //Page Object
 Page({
   data: {
+    pageTitle: '小程序项目',
     cellList: [
       {
         title: 'Data Binding',
@@ -28,6 +29,21 @@ Page({
         title: 'Fotografiska',
         url: '/pages/brands/fotografiska/fotografiska',
         icon: 'letters-f',
+      },
+      {
+        title: 'IKEA',
+        url: '/pages/brands/fotografiska/fotografiska',
+        icon: 'letters-i',
+      },
+      {
+        title: 'Tamburins',
+        url: '/pages/brands/fotografiska/fotografiska',
+        icon: 'letters-t',
+      },
+      {
+        title: '麦当劳',
+        url: '/pages/brands/fotografiska/fotografiska',
+        icon: 'letters-m',
       },
     ],
   },

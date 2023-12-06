@@ -13,7 +13,8 @@ Page {
 
 .content-wrapper {
   position: relative;
-  min-height: 50vh;
+  min-height: 70vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
