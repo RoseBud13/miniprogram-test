@@ -1,0 +1,12 @@
+<my-navbar left-arrow transparent />
+<view class="media-wrapper">
+	<video
+	  id="background-video"
+	  src="https://www.fotografiska.com/app/uploads/2022/09/Foto_Landing.mp4"
+	  binderror="videoErrorCallback"
+	  controls="{{false}}"
+	  autoplay="{{true}}"
+	  loop="{{true}}"
+	/>
+</view>
+

@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/template/template",
     "pages/data-binding/data-binding",
-    "pages/gallery/gallery"
+    "pages/gallery/gallery",
+    "pages/brands/fotografiska/fotografiska"
   ],
   "window": {
     "navigationBarTextStyle": "black",

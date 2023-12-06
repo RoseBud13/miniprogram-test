@@ -26,7 +26,7 @@ Page({
       },
       {
         title: 'Fotografiska',
-        url: '/pages/template/template',
+        url: '/pages/brands/fotografiska/fotografiska',
         icon: 'letters-f',
       },
     ],
