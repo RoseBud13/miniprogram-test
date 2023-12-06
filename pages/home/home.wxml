@@ -12,5 +12,16 @@
 		  arrow
 		/>
 	</t-cell-group>
+	<t-cell-group theme="card">
+		<t-cell
+		  wx:for="{{brandList}}"
+		  wx:key="item"
+		  title="{{item.title}}"
+		  url="{{item.url}}"
+		  leftIcon="{{item.icon}}"
+		  hover
+		  arrow
+		/>
+	</t-cell-group>
 </view>
 

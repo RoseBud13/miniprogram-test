@@ -18,6 +18,18 @@ Page({
         icon: 'image',
       },
     ],
+    brandList: [
+      {
+        title: 'Byredo',
+        url: '/pages/data-binding/data-binding',
+        icon: 'letters-b',
+      },
+      {
+        title: 'Fotografiska',
+        url: '/pages/template/template',
+        icon: 'letters-f',
+      },
+    ],
   },
   //options(Object)
   onLoad: function () {},
